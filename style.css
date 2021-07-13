@@ -21,7 +21,7 @@ body {
 .header {
   width: 100%;
   text-align: center;
-  margin: 4em auto 0 auto;
+  margin: 1em 0 0 0;
 }
 
 .header .btn-grad {
@@ -38,7 +38,7 @@ body {
   border-radius: 10px;
   display: inline-block;
   padding: 10px;
-  margin-bottom: 0.8em;
+  margin: 1.3em;
   font-weight: 550;
 }
 
@@ -51,7 +51,6 @@ body {
 
 .header h5 {
   font-size: 1.28rem;
- 
 }
 
 .container {
@@ -106,12 +105,11 @@ body {
 .intro {
   text-align: center;
   align-items: center;
-  
   transition: all ease 0.7s;
 }
 
 .intro h2 {
-  margin: 2.5rem 0 2.35em 0;
+  margin: 2.5rem 0 1em 0;
   font-size: 2rem;
   color: white;
 }
@@ -229,7 +227,7 @@ form {
 }
 
 .btns {
-  margin: 0;
+  margin: 8em 0;
   display: flex;
   justify-content: center;
 }
