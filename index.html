@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&amp;display=swap" rel="stylesheet">
+    <script src="https://cdn.agora.io/sdk/release/AgoraRTCSDK-3.6.1.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./assets/videologo.png">
+    <title>video chat app</title>
+</head>
+
+<body>
+
+  
+    <div class="header">
+        <h1 class="btn-grad">Video Call </h1>
+        
+        <h5>Here You Go</h5>
+    </div>
+
+    <div class="intro">
+        <h2>Hello! Welcome to our <span>Video Call</span> App &#128150 🎉</h2>
+         <h4>Choose Your Avatar</h4>
+     
+         <form >
+             <input type="radio" name="gender" value="male" id="male" checked> <label for="male" class="male">
+                 <img src="./assets/male.png" alt=""></label>
+             <input type="radio" name="gender" value="female" id="female"> <label for="female" class="female">
+                 <img src="./assets/female.png" alt=""></label>
+         </form>
+         <button class="startmeet" onclick="clicked()">Start Meeting</button>
+    </div>
+
+    <div class="container">
+        <div class="left" id="local"><h1>You</h1></div>
+        <div class="right" id="remote"><h1> <span class="count">0</span> others</h1><div class="others-container"></div> </div>
+    </div>
+
+
+    <div class="btns">
+        <button class="btn-grad-1" onclick="muteAudio()">mute</button>
+        <button class="btn-grad-2" onclick="unmuteAudio()">unmute</button>
+        <button class="btn-grad-3" onclick="leaveMeet()">leave</button>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <<div class="custom-shape-divider-bottom-1626030920">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+        </svg>
+    </div>
+ <script src="app.js"></script>
+ 
+</body>
+</html>
