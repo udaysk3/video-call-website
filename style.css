@@ -15,6 +15,7 @@ body {
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: #f0f0f0;
   height: 100%;
+  overflow-y:hidden;
   transition: 0.6s all ease;
 }
 
@@ -161,26 +162,7 @@ form {
   text-decoration: none;
 }
 
-.custom-shape-divider-bottom-1626030920 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-}
 
-.custom-shape-divider-bottom-1626030920 svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 45px;
-  transform: rotateY(180deg);
-}
-
-.custom-shape-divider-bottom-1626030920 .shape-fill {
-  fill: #FFFFFF;
-}
 
 /** For mobile devices **/
 @media (max-width: 767px) {
