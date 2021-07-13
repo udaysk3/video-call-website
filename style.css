@@ -105,12 +105,12 @@ body {
 .intro {
   text-align: center;
   align-items: center;
-  margin-top: 2.5em; 
+  
   transition: all ease 0.7s;
 }
 
 .intro h2 {
-  margin: 2.5rem 0 1em 0;
+  margin: 2.5rem 0 2.35em 0;
   font-size: 2rem;
   color: white;
 }
