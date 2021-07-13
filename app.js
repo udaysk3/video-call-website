@@ -9,6 +9,8 @@ let male = document.getElementById("male");
 let female = document.getElementById("female");
 let start = document.querySelector(".container");
 let local = document.querySelector("#local");
+let startMeet = document.querySelector('.startmeet');
+
 
 //event listeners
 
@@ -17,6 +19,7 @@ let local = document.querySelector("#local");
 
 function clicked()
 { 
+    startMeet.remove();
     if(male.checked)
     {
     callAvatar(male);
